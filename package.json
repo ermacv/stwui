@@ -29,6 +29,7 @@
 		"lint": "prettier --check . && eslint .",
 		"lint:fix": "eslint --fix .",
 		"format": "prettier --write .",
+		"publish": "npm run package",
 		"prepare": "husky install && svelte-kit sync",
 		"pack": "node ./scripts/pack"
 	},
